@@ -1,3 +1,2 @@
-# This is the backend project for tutorials
-
-backend using node js
+# backend
+A backend project following tutorials
