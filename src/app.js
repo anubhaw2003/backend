@@ -20,4 +20,15 @@ app.get('/',()=>{
 })
 
 
+// import routes
+import userRouter from './routes/user.routes.js'
+
+// routes declaration
+app.use('/api/v1/user',userRouter) // user is a prefix and then further register or login will be appended to handle the operations
+// api caal then version of api
+
+// url -> http://localhost:6000/api/v1/user/login
+// url -> http://localhost:6000/api/v1/user/register
+
+
 export {app};
